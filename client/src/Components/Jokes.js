@@ -32,7 +32,7 @@ class Jokes extends Component {
             return (
               <div>
                 <div>{joke.setup}</div>
-                <div style={textStyle}>{joke.punchline}</div>
+                <div>{joke.punchline}</div>
               </div>
             );
           })}
@@ -47,4 +47,4 @@ class Jokes extends Component {
   }
 };
 
-export { Jokes };
+export default { Jokes };

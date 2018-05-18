@@ -2,16 +2,13 @@ import React from 'react';
 import { Button } from 'reactstrap';
 
 const HomePage = props => {
-  const { buttonStyles, containerStyle } = styles;
   return (
-    <div style={containerStyle}>
+    <div>
       <Button
-        style={buttonStyles}
         onClick={() => props.history.push('/signup')}>
         Create Account
       </Button>
       <Button
-        style={buttonStyles}
         onClick={() => props.history.push('/signin')}>
         Sign In
       </Button>
@@ -19,4 +16,4 @@ const HomePage = props => {
   );
 };
 
-export { HomePage };
+export default { HomePage };

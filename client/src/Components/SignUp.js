@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
 import axios from "axios";
 
-class SIgnUp extends Component {
+class SignUp extends Component {
   state = {
     username: '',
     password: ''

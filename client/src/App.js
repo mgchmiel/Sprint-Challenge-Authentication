@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { HomePage, SignIn, SignUp, Jokes } from './Components/';
+import  {Route} from 'react-router-dom';
+import SignIn from './Components/SignIn';
+import HomePage from './Components/HomePage';
+import SignUp from './Components/SignUp';
+import Jokes from './Components/Jokes';
 class App extends Component {
   render() {
     return (

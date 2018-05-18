@@ -19,11 +19,11 @@ class SignIn extends Component {
       .post('http://localhost:5000/api/login', this.state)
       .then(response => {
         localStorage.setItem('authToken', response.data.token);
-        alert('Login was successful.  Enjoy the jokes!');
+        alert('Succesful Login');
         this.props.history.push('/jokes');
       })
       .catch(err => {
-        alert('There was an issue while loggin you in.  Please try again.');
+        alert('Login Error');
       });
   };
 
