@@ -29,7 +29,7 @@ class SignUp extends Component {
   render() {
     return (
       <Form onSubmit={this.submitHandler}>
-        <h1>Please Sign Up</h1>
+        <h1>Sign Up</h1>
         <FormGroup>
           <Label for="username">Username</Label>
           <Input

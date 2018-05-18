@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
+import HomePage from './Components/HomePage.js';
+import SignUp from './Components/SignUp.js';
+import SignIn from './Components/SignIn.js';
+import Jokes from './Components/Jokes.js';
+
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import SignIn from './Components/SignIn';
-import HomePage from './Components/HomePage';
-import SignUp from './Components/SignUp';
-import Jokes from './Components/Jokes';
+
 class App extends Component {
   render() {
     return (
